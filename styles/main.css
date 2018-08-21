@@ -1,9 +1,102 @@
 body {
-    background-color: darkgray;
     font-style: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display:inline-block; 
     margin-left: 40px; 
+    background: linear-gradient(to right, #ffffff 0%,#3c3f3d 100%);
+    /*background: linear-gradient(to right, #ffffff 0%,#a8a8a8 66%,#e5ede8 66%,#3c3f3d 100%); So, are these splits split in 25% parts of the screen realestate by default? */
+    /*background-color: darkgray;*/
+    max-width: 700px;
 
-    
   }
+  .main{
+    margin-left: 5px; 
+
+  }
+
+  .article{
+    margin-left: 5px; 
+
+  }
+
+.blog-section {
+    background-color: aliceblue;
+    font-style: italic;
+    border: 2px;
+    border-color: blue;
+    padding: 5px; 
+    margin-left: 5px;
+    padding-right: 5px;
+    
+  
+}
+/*.logo{
+  box-align: left;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  max-width: 200px;
+  max-height: 100px;
+  background-color: green;
+ failing for now, not aligning left
+}
+*/
+
+.header{
+  text-align: left;
+  /*background-color: blue;*/
+  max-width: 700px;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 5px;
+
+
+  
+}
+.header-p{
+  text-align: right;
+  font-style: italic;
+  /*background-color: red;*/
+  margin-right: 5px;
+
+
+}
+
+.sideline{
+  text-transform: uppercase;
+  font-family: cursive;
+  background-color: yellow;
+
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+
+}
+  .navigation {
+  padding: 3px;
+  margin: 3px;
+  list-style: none;
+  overflow: hidden;
+  display: list-item;
+}
+
+.date{
+  text-align: right;
+}
+.mainarticle{
+  background-color: #3c3f3d;
+  color: beige;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-width: 700px;
+
+}
+
+.list{
+  border-style: solid;
+  border-color: #3c3f3d;
+  border-width: 3px;
+}
+.listitem{
+  margin-left: 10px;
+
+}
