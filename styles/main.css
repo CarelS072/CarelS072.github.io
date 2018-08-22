@@ -6,7 +6,7 @@ body {
     background: linear-gradient(to right, #ffffff 0%,#3c3f3d 100%);
     /*background: linear-gradient(to right, #ffffff 0%,#a8a8a8 66%,#e5ede8 66%,#3c3f3d 100%); So, are these splits split in 25% parts of the screen realestate by default? */
     /*background-color: darkgray;*/
-    max-width: 700px;
+    max-width: 1000px;
 
   }
   .main{
