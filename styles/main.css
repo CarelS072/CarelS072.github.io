@@ -8,9 +8,9 @@ header {
 main {
   }
 
-h5 {
-  text-align: center;
-}
+/* h5 {
+  text-align: left;
+} */
 
 th {
   text-align: center;
@@ -34,4 +34,11 @@ section {
   padding-top: 1rem;
   align-content: center;
   text-align: left;
+}
+
+tr:hover { 
+  background: #1EAEDB; 
+}
+td a { 
+  display: block; 
 }
