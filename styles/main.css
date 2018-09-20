@@ -42,3 +42,10 @@ tr:hover {
 td a { 
   display: block; 
 }
+
+/* 
+more info - https://css-tricks.com/almanac/properties/c/content/
+ticket - https://github.com/phase-0/phase-0/issues/5228
+div::before {
+  content: url(../images/wireframe-blog-index-mobile.jpg);
+} */
