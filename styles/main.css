@@ -12,7 +12,9 @@ header {
   margin-bottom: 1em;
   /* background-color: black; */
 }
-
+media {
+  text-align: center;
+}
 
 
 main {
